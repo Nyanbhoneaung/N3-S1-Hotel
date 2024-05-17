@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N3 S1 | Reservation</title>
+    <link rel="stylesheet" href="column.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="reservation.css">
+    <!--Boostrap Icon CDN link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/x-icon" href="Image/HOTEL LOGO.png">
+</head>
+<body>
+    <!--nav start-->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="bi bi-list"></i></label>
+        <a href="#" class="logo"><img src="Image/HOTEL LOGO.png" alt="hotel" width="40px" height="40px"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown"><a href="#">Services<i class="bi bi-caret-down-fill"></i></a>
+                <div class="dropdown-menu">
+                    <a href="room.html">Rooms</a>
+                    <a href="tour.html">Hotel Tour</a>
+                    <a href="reservation.html">Reserve Now</a>
+                </div>
+            </li> 
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="review.html">Review</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Log In</a></li>
+        </ul>
+    </nav>
+    <!--nav end--><br>
+    <div>
+    </div>
+    <br><br>
+    <div class="CONTAINER">
+        <div class="text">
+            <h1 class="h1_1">Reservation</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="display:flex;justify-content:center;flex-wrap: wrap;">
+            <div class="col-6 col-s-4">
+                <h1>Make your Reservation</h4>
+                <p class="para">Please enter all the forms in this Page. If finished click the check Availability in order to reserve.</p>
+                <div class="img1"></div>
+            </div>
+        <div class="col-6 col-s-8">
+        <!--Check In and Out start-->
+        <h1>Check-In</h1>
+        <input class="input" type="datetime-local" id="Check-In" name="Check-In"><br>
+        <h1>Check-Out</h1>
+        <input class="input" type="datetime-local" id="Check-In" name="Check-In"><br>
+         <!--Check In and Out end-->
+        <!--Dropdown start-->
+        <h1>Room Type</h1>
+        <select id="Month" name="Month">
+            <option value="1">Single bedroom - 1</option>
+            <option value="2">Single bedroom - 2</option>
+            <option value="3">Single bedroom - 3</option>
+            <option value="4">Double bedroom - 1</option>
+            <option value="5">Double bedroom - 2</option>
+            <option value="6">Double bedroom - 3</option>
+            <option value="7">Family bedroom - 1</option>
+            <option value="8">Family bedroom - 2</option>
+            <option value="9">Family bedroom - 3</option>
+            <option value="10">Sea view single bedroom - 1</option>
+            <option value="11">Sea view single bedroom - 2</option>
+            <option value="12">Sea view single bedroom - 3</option>
+            <option value="13">Sea view double bedroom - 1</option>
+            <option value="14">Sea view double bedroom - 2</option>
+            <option value="15">Sea view double bedroom - 3</option>
+            <option value="16">Sea view family bedroom - 1</option>
+            <option value="17">Sea view family bedroom - 2</option>
+            <option value="18">Sea view family bedroom - 3</option>
+            <option value="19">Garden view single bedroom - 1</option>
+            <option value="20">Garden view single bedroom - 2</option>
+            <option value="21">Garden view single bedroom - 3</option>
+            <option value="22">Garden view double bedroom - 1</option>
+            <option value="23">Garden view double bedroom - 2</option>
+            <option value="24">Garden view double bedroom - 3</option>
+            <option value="25">Garden view family bedroom - 1</option>
+            <option value="26">Garden view family bedroom - 2</option>
+            <option value="27">Garden view family bedroom - 3</option>
+        </select>
+         <!--Dropdown end-->
+         <!--Text Input start--><br>
+        <h1>Number of Adult</h1>
+        <input class="input" type="text" id="adult" name="adult"><br>
+        <h1>Number of Children</h1>
+        <input class="input" type="text" id="children" name="children"><br><br>
+        <br>
+        <button class="check" type=button onclick="alert('Your availability was succesful')">Check Availability</button>
+        <br><br><br>
+        <!--Text Input end-->
+
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-s-4">
+                <a href="#" class="logo"><img src="Image/HOTEL LOGO.png" alt="hotel" width="40px" height="40px"></a>
+                <p>N3 S1</p>
+                <p>N3 S1 Hotel, Chaung Tha Beach</p>
+                <p>Email:info@n3s1.com</p>
+                <p>Hotline No: +959795133331, +959795133332</p>
+            </div>
+            <div class="col-s-4 footer_link">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="">Services</a>
+                <a href="review.css">Review</a>
+                <a href="about_us.html">About Us</a>
+                <a href="https://edusn-my.sharepoint.com/:w:/g/personal/nyanbhoneaung_edusnschool_co_uk/EZY9fUgls6lItF15cMaFbKcBP-QDqVfnhCplgjRbat_dUg?wdOrigin=TEAMS-MAGLEV.p2p_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1715765120815&web=1">Reference</a>
+            </div>
+            <div class="col-s-4 subscribe">
+                <h3>Subscribe our website.</h3>
+                <div>
+                    <input type="email" name="email" placeholder="Enter Email"  style="height:30px;width:70%;">
+                    <button class="submit"  type="submit" style="padding:7px 5px;background-color:deepskyblue; box-shadow: 0 1px 3px rgba(1,1,2,0.20), 0 1px 2px rgba(0,0,0,0.30);">Submit</button><br><br>
+                </div>
+                <h3>Social Links</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=61559078489565&mibextid=ZbWKwL" class="bi bi-facebook"></a></li>
+                    <li><a class="bi bi-youtube"></a></li>
+                    <li><a class="bi bi-instagram"></a></li>
+                    <li><a class="bi bi-threads"></a></li>
+                    <li><a class="bi bi-twitter"></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">©Copyright 2024-2026 | N3 S1 Hotel. Developed to N3 S1 Hotel</p>    
+    </footer>
+</body>
+
+</html>

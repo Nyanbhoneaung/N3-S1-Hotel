@@ -1,0 +1,70 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.item {
+    flex-basis: 28%;
+    border: 5px groove black;
+    margin: 0 15px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.checked {
+    color: orange;
+}
+.h2 {
+    color: black;
+    text-shadow: 6px 6px 20px rgb(0, 0, 0);
+}
+.para {
+    color: black;
+    text-shadow: 3px 3px 20px rgb(0, 0, 0);
+}
+.Review {
+    background-color: darkgray;
+    height: 100px;
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+.div1   {
+    background: url(Image/HOTELLLL.jpg);
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+}
+.text   {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.head {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    background-color:rgba(250, 235, 215, 0.745);
+    font-size: 100px;
+}
+.but {
+    padding: 10px;
+    width: 15%;
+    border-radius: 10px;
+    margin-left: 25px;
+    border: 3px solid gold;
+    color: gold;
+    background-color: rgba(95, 158, 160);
+}
+.label {
+    font-size: 75px;
+}
+textarea {
+    background-color: lightgray;
+}

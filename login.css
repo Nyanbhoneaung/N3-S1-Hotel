@@ -1,0 +1,32 @@
+body {
+    background: url(Image/li.jpg) repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+fieldset {
+    width: 40%;
+    height: 65%;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.551);
+}
+.img-box-src {
+    height: 80px;
+}
+input {
+    width: 70%;
+    height: 30px;
+    margin: 25px;
+    border-radius: 15px;
+}
+button {
+    width: 25%;
+    height: 50px;
+    background-color: rgb(118, 118, 118);
+    border-radius: 15px;
+    color: white;
+}
